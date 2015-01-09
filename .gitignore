@@ -5,11 +5,17 @@ syntax: glob
 **/_UpgradeReport_Files/
 **/[B|b]in
 **/[O|o]bj
+**/[P|p]ackages/
 **/[B|b]ld
 
-# Static files
-[G|g]lobal.asa
-
-# User settings
-*.user
+# User specific files
+UpgradeLog.*
 *.suo
+*.rdl.data
+*.rptproj.user
+*.user
+*.database
+
+# Static files
+[W|w]eb.config
+[G|g]lobal.asa
