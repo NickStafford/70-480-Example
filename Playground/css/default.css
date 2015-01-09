@@ -1,0 +1,27 @@
+﻿body {
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+
+.default-container {
+
+}
+
+.codeForm {
+          width: 100%;
+}
+
+.codeInput {
+          width: 100px;
+          border: solid red;
+}

@@ -1,0 +1,15 @@
+syntax: glob
+
+# Folders
+**/[B|b]ackup/
+**/_UpgradeReport_Files/
+**/[B|b]in
+**/[O|o]bj
+**/[B|b]ld
+
+# Static files
+[G|g]lobal.asa
+
+# User settings
+*.user
+*.suo
