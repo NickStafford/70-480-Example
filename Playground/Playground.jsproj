@@ -65,6 +65,7 @@
     <Content Include="Bootstrap\dist\js\npm.js" />
     <Content Include="default.html" />
     <Content Include="html\tabs\tabStyling.html" />
+    <Content Include="html\tabs\tabStructure.html" />
     <Content Include="html\template.html" />
     <Content Include="html\tabs\tabCanvas.html" />
     <Content Include="images\logo.png" />
