@@ -2,23 +2,24 @@
 <html>
           <head>
                     <title>Canvas Tab Content HTML</title>
-              
-                    <!-- Load Canvas Buttons -->
-                    <script src="/js/canvascontrolbuttons.js"> </script>
-              
-                    <!-- Include JQUERY and Bootstrap -->
-                    <!-- TODO: Replace this with some sort of method so that JQuery and Bootstrap are inherited from the parent. Will need it to avoid using this in all iFrames -->
+                    
+                    <!-- WinJS references -->
+                    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+                    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+                    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+                    <!-- Playground references -->
+                    <link href="/css/default.css" rel="stylesheet" />
+                    <script src="/js/default.js"></script>
+                    
+                    <!-- JQuery reference -->
                     <script src="/js/jquery.js"></script>
+
+                    <!-- Bootstrap core CSS -->
                     <link href="/Bootstrap/dist/css/bootstrap.css" rel="stylesheet">
                     <script src="/Bootstrap/dist/js/bootstrap.js"></script>
-
-                    <script type="text/javascript">
-                              var parent = this.parent;
-                              
-                              //variabele so that I have something to put a breakpoint on and see what everything above has resulted in.
-                              var forceBreakVar = "12";
-                    </script>
           </head>
+
           <body>
                     <div class="panel panel-default">
                               
