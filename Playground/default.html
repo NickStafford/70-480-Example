@@ -23,24 +23,28 @@
           <!-- Load builder to be called later -->
           <script src="/js/mainpagebuilder.js"></script>
 </head>
-<body>
-          <h1 class="">Exam 70-480 Playground </h1>
-
-          <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#canvas" aria-controls="canvas" role="tab"
-                              data-toggle="tab">Canvas</a></li>
-                    <li role="presentation"><a href="#styling" aria-controls="styling"
-                              role="tab" data-toggle="tab" data-target="#styling">Programmatic Styling</a></li>
-          </ul>
-
-          <div id="content" class="tab-content">
+          <body>
+                    <!-- Page Header Banner -->
+                    <h1 class="">Exam 70-480 Playground </h1>
                     
-                    <iframe id="canvas" class="tab-pane active" role="tabpanel" src="\tabs\tabCanvas.html" seamless="seamless">  
-                    </iframe>
+                    <!-- Tab Control Panel -->
+                    <ul class="nav nav-tabs" role="tablist">
+                              <li role="presentation" class="active"><a href="#canvas" aria-controls="canvas" role="tab"
+                                                                        data-toggle="tab">Canvas</a></li>
+                              <li role="presentation"><a href="#styling" aria-controls="styling"
+                                                         role="tab" data-toggle="tab" data-target="#styling">Programmatic Styling</a></li>
+                    </ul>
                     
-                    <div role="tabpanel" class="tab-pane" id="styling">
-                              Styling tab test.
+                    <!-- Tab Content -->
+                    <div id="content" class="tab-content">
+                    
+                              <iframe id="canvas" class="tab-pane active contentframe" role="tabpanel" src="\html\tabs\tabCanvas.html" seamless>  
+                              </iframe>
+                    
+                              <!-- TODO: Convert this tab to also be an iframe that loads from another html file -->
+                              <div role="tabpanel" class="tab-pane" id="styling">
+                                        Styling tab test.
+                              </div>
                     </div>
-          </div>
-</body>
+          </body>
 </html>

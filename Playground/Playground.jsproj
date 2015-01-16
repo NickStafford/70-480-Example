@@ -64,6 +64,7 @@
     <Content Include="Bootstrap\dist\js\bootstrap.min.js" />
     <Content Include="Bootstrap\dist\js\npm.js" />
     <Content Include="default.html" />
+    <Content Include="html\tabs\tabCanvas.html" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
@@ -73,7 +74,6 @@
     <Content Include="css\default.css" />
     <Content Include="js\jquery.js" />
     <Content Include="js\mainpagebuilder.js" />
-    <Content Include="tabs\tabCanvas.html" />
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />

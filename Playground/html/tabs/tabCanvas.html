@@ -21,16 +21,26 @@
           </head>
           <body>
                     <div class="panel panel-default">
+                              
+                              <!-- Panel Header - Contains control buttons for pre-built control functions. -->
                               <div class="panel-heading">
                                         <div class="btn-group default-container" role="group">
                                                   <button class="btn btn-default" onclick=" clearCanvas() ">Clear</button>
                                                   <button class="btn btn-default" onclick=" fillTestRed() ">Red</button>
                                         </div>
                               </div>
+                              
+                              <!-- Panel Body - Contains the canvas element that is the subject of this tab and code input box. -->
                               <div class="panel-body" onSubmit=" codeSubmit('testCanvas', 'canvasCode'); ">
+                                        
+                                        <!--Canvas Element -->
                                         <canvas class="center-block" id="testCanvas" style="border: 1px solid #000000; width: 100%;">
                                         </canvas>
+                                        
                                         <br />
+                                        
+                                        <!-- Code input box -->
+                                        <!-- TODO: Make this work. It seems that Windows 8 apps do not like dynamically generated html... this is unfortunate. -->
                                         <form id="canvasCodeForm" class="codeForm input-group">
                                                   <input type="text" id="canvasCode" class="codeInput  form-control" value="Insert Code Here"/>
                                                   <span class="input-group-btn">
