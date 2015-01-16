@@ -26,6 +26,7 @@
           border: solid red;
 }
 
+/* Bug: For some reason this is not adequately forcing the height when run as part of a Windows 8 app.*/
 .contentframe {
           width: 100%;
           height: 100%;
