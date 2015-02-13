@@ -26,16 +26,18 @@ function codeSubmit(target, textbox) {
 function codeInsert(target, textbox) {
           
           var checktype = document.getElementById(target).tagName;
-          var code = document.getElementById(textbox).value;
+          var code = $('input#canvasCode').val();
           
           
-          code = '<script type="text/javascript">' + code + '</script>';
+          code = "<script type='text/javascript'>" + code + '</script>';
 
           if(checktype === "CANVAS") {
                     // Apply the canvas code here.
                     
+                    $("#reactiveScriptDiv").html(code);
+
                     MSApp.execUnsafeLocalFunction(function () {
-                              document.getElementById('reactiveScriptDiv').innerHTML = code;
+                              
                     });
           }
 }

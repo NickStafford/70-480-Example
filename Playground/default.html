@@ -19,11 +19,22 @@
                     <!-- Bootstrap core CSS -->
                     <link href="/Bootstrap/dist/css/bootstrap.css" rel="stylesheet">
                     <script src="/Bootstrap/dist/js/bootstrap.js"></script>
+                    
+                    <!-- TODO: Pull this functionality out into a separate file so that all tabs can be assigned this method of lazy loading. (Would require use of JQuery). -->
+                    <!-- This also provides a reload functionality as resetting the source reloads the issue. Could be removed if necessary by a simple IF statement. -->
+                    <script type="text/javascript">
+                              window.onload = function () {
+                                        $('#UIInteractionNav').click(0, function () {
+                                                  $('#uiinteraction').attr('src', '/html/tabs/tabUIInteraction.html');
+                                        });
+                              };
+                   </script>
           </head>
 
           <body>
                     <!-- Page Header Banner -->
                     <!-- TODO: Add a button that will open the currently active tab content within a separate browser since Windows 8 apps appear not to follow default styling as browsers do. -->
+                    <!-- Further thoughts, could this also be installed as an application in IIS so that it opened the IIS version when the button was clicked and therefore kept references intact? -->
                     <header>
                               <h1 class="">Exam 70-480 Playground </h1>
                     </header>
@@ -33,6 +44,7 @@
                               <li role="presentation" class="active"><a href="#canvas" aria-controls="canvas" role="tab" data-toggle="tab">Canvas</a></li>
                               <li role="presentation"><a href="#styling" aria-controls="styling" role="tab" data-toggle="tab" data-target="#styling">Programmatic Styling</a></li>
                               <li role="presentation"><a href="#structure" aria-controls="structure" role="tab" data-toggle="tab" data-target="#structure">Document Structure</a></li>
+                              <li role="presentation"><a id="UIInteractionNav" href="#uiinteraction" aria-controls="uiinteraction" role="tab" data-toggle="tab" data-target="#uiinteraction">UI Interaction</a></li>
                     </ul>
                     
                     <!-- Tab Content -->
@@ -49,6 +61,15 @@
                               <!-- Content For The Document Structure Tab -->
                               <iframe role="tabpanel" class="tab-pane contentframe" id="structure" src="/html/tabs/tabStructure.html" seamless>
                               </iframe>
+                              
+                              <!-- Content For The UI Interaction Tab -->
+                              <iframe role="tabpanel" class="tab-pane contentframe" id="uiinteraction" seamless>
+                              </iframe>
+
                     </div>
+                    
+                    <script type="text/javascript">
+                              
+                    </script>
           </body>
 </html>

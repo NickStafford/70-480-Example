@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+          <head>
+                    <title>UI Interaction</title>
+
+                    <!-- WinJS references -->
+                    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+                    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+                    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+                    <!-- Playground references -->
+                    <link href="/css/default.css" rel="stylesheet" />
+                    <script src="/js/default.js"></script>
+                    
+                    <!-- JQuery reference -->
+                    <script src="/js/jquery.js"></script>
+
+                    <!-- Bootstrap core CSS -->
+                    <link href="/Bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+                    <script src="/Bootstrap/dist/js/bootstrap.js"></script>
+                    
+                    <script>
+                              window.onload = function () {
+
+                                        //var frame = document.getElementById("outerDiv");
+                                        //var popup = Windows.UI.Popups.MessageDialog(frame.innerHTML);
+                                        //
+                                        //popup.showAsync();
+                                        
+                                        //var paragraphs = document.getElementsByTagName("p");
+                                        //var popup = new Windows.UI.Popups.MessageDialog(paragraphs.length);
+                                        //
+                                        //popup.showAsync();
+                              };
+                    </script>
+          </head>
+          <body>
+                    <div id="outerDiv">
+                              <p class="mainPara">Main Paragraph</p>
+                              <ul>
+                                        <li>First List Item</li>
+                                        <li>Second List Item</li>
+                                        <li>Third List Item</li>
+                                        <li>Fourth List Item</li>
+                              </ul>
+                              <div id="innerDiv">
+                                        <p class="subPara" id="P1">Paragraph 1</p>
+                                        <p class="subPara" id="P2">Paragraph 2</p>
+                                        <p class="subPara" id="P3">Paragraph 3</p>
+                                        <p class="subPara" id="P4">Paragraph 4</p>
+                              </div>
+                              <table>
+                                        <tr>
+                                                  <td>Row 1</td>
+                                        </tr>
+                                        <tr>
+                                                  <td>Row 2</td>
+                                        </tr>
+                                        <tr>
+                                                  <td>Row 3</td>
+                                        </tr>
+                                        <tr>
+                                                  <td>Row 4</td>
+                                        </tr>
+                                        <tr>
+                                                  <td>Row 5</td>
+                                        </tr>
+                              </table>
+                              <input type="text" /><input type="submit" value="Submit" />
+                    </div>
+          </body>
+</html>
