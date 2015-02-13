@@ -67,6 +67,7 @@
     <Content Include="default.html" />
     <Content Include="html\tabs\tabStyling.html" />
     <Content Include="html\tabs\tabStructure.html" />
+    <Content Include="html\tabs\tabUIInteraction.html" />
     <Content Include="html\template.html" />
     <Content Include="html\tabs\tabCanvas.html" />
     <Content Include="images\logo.png" />
@@ -74,9 +75,10 @@
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
     <Content Include="images\tabs\structure\orange.jpg" />
-    <Content Include="js\canvascontrolbuttons.js" />
     <Content Include="js\default.js" />
     <Content Include="js\jquery.js" />
+    <Content Include="js\tabs\canvascontrolbuttons.js" />
+    <Content Include="js\tabs\tabdefault.js" />
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
