@@ -27,17 +27,22 @@
           <body>
                     <div class="panel panel-default">
                               
-                              <!-- Panel Header - Contains control buttons for pre-built control functions. -->
+                              <!-- Panel Header - A title holding section -->
                               <div class="panel-heading">
-                                        <div class="btn-group default-container" role="group">
-                                                  <button class="btn btn-default" onclick=" clearCanvas() ">Clear</button>
-                                                  <button class="btn btn-default" onclick=" fillTestRed() ">Red</button>
-                                        </div>
+                                        <b> Section 1.2 - Writing code that interacts with UI controls (Implementing graphics with HTML5 &#60canvas>)</b>
                               </div>
                               
                               <!-- Panel Body - Contains the canvas element that is the subject of this tab and code input box. -->
                               <div class="panel-body" onSubmit=" codeSubmit('testCanvas', 'canvasCode'); ">
                                         
+                                        <!-- Canvas control buttons-->
+                                        <div class="btn-group default-container" role="group">
+                                                  <button class="btn btn-default" onclick=" clearCanvas() ">Clear</button>
+                                                  <button class="btn btn-default" onclick=" fillTestRed() ">Red</button>
+                                        </div>
+
+                                        <br /><br />
+
                                         <!--Canvas Element -->
                                         <canvas class="center-block" id="testCanvas" style="border: 1px solid #000000; width: 100%;">
                                         </canvas>

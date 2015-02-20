@@ -68,7 +68,7 @@
     <Content Include="html\tabs\tabStyling.html" />
     <Content Include="html\tabs\tabStructure.html" />
     <Content Include="html\tabs\tabUIInteraction.html" />
-    <Content Include="html\template.html" />
+    <Content Include="html\tabs\template.html" />
     <Content Include="html\tabs\tabCanvas.html" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
