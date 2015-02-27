@@ -14,6 +14,12 @@
 @media screen and (-ms-view-state: fullscreen-portrait) {
 }
 
+.panel-heading > b{
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+}
+
 .default-container {
         background-color: rgba(235, 233, 233, 0.51);
 }
@@ -31,4 +37,16 @@
           width: 100vw;
           height: 100vh;
           
+}
+
+input {
+          border-color: #000000 !important;
+          border-width: thin !important;
+          height: 30px !important;
+          min-height: 30px !important;
+}
+
+div {
+          overflow: auto;
+          line-height: 1 !important;
 }

@@ -79,6 +79,7 @@
     <Content Include="js\jquery.js" />
     <Content Include="js\tabs\canvascontrolbuttons.js" />
     <Content Include="js\tabs\tabdefault.js" />
+    <Content Include="js\tabs\tabUIInteraction.js" />
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
